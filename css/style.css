@@ -1,0 +1,144 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+header {
+    background-color: darkcyan;
+    color: rgb(211, 189, 92); 
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    justify-content: center; 
+    padding: 50px; 
+    height: 150px; 
+}
+
+header h1 {
+    font-size: 55px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+header h2 {
+    font-size: 30px; 
+    font-family: 'Lato', sans-serif;
+}
+
+main {
+    height: 75vh; 
+    background-color: rgb(13, 53, 117); 
+    color: black; 
+    display: flex; 
+}
+
+
+.imc {
+    display: flex; 
+    flex-direction: row; 
+    height: 70%; 
+    width: 30%; 
+    border: 3px solid black;
+    margin: auto; 
+}
+
+
+.formulario {
+    width: 50%; 
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    justify-content: first baseline; 
+}
+
+.formulario h3 {
+    font-family: 'Lato', sans-serif;
+    margin-top: 50px; 
+    margin-bottom: 60px; 
+    width: 100%; 
+    text-align: center; 
+}
+
+.campos {
+    width: 90%; 
+    display: flex; 
+    flex-direction: column;
+}
+
+.campo {
+    display: flex; 
+    flex-direction: column; 
+    margin-bottom: 25px; 
+}
+
+.campo label {
+    font-size: small;
+    font-style: italic; 
+    margin-bottom: 10px; 
+}
+
+.campo input {
+    width: 100%; 
+    height: 30px; 
+    outline: none; 
+    background-color: transparent; 
+    border: 3px solid black; 
+    border-radius: 5px; 
+    padding: 0px 5px 0px 5px;
+    color: gray;
+    transition: all 1s ease;
+}
+
+
+input::placeholder {
+    color: gray; 
+}
+
+.campo input:focus {
+    background-color: transparent; 
+    border: 3px solid whitesmoke; 
+    padding-left: 10px; 
+    color: whitesmoke; 
+}
+
+.formulario button {
+    background-color: gray; 
+    color: black; 
+    border: 3px solid black; 
+    border-radius: 5px; 
+    width: 100%; 
+    height: 30px; 
+    font-size: 1.3rem; 
+    transition: all 1s ease; 
+    margin-top: 20px; 
+    cursor: pointer; 
+}
+
+.formulario button:hover {
+    background-color: transparent; 
+    color: black; 
+}
+
+footer {
+    background-color: darkcyan; 
+    color: black; 
+    height: 100px; 
+    display: flex; 
+    align-items: center; 
+    justify-content: first baseline; 
+    padding-left: 30px;
+}
+
+footer p {
+    font-weight: 700; 
+    font-size: 15px; 
+}
